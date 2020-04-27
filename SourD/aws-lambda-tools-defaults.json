@@ -1,0 +1,13 @@
+{
+  "Information": [
+    "The default launch values for the SourD Lambda"
+  ],
+  "profile": "default",
+  "region": "us-west-1",
+  "configuration": "Release",
+  "framework": "netcoreapp3.1",
+  "function-runtime": "dotnetcore3.1",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "SourD::SourD.Function::FunctionHandler"
+}
